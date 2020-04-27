@@ -31,3 +31,15 @@ ul {
   #logoLink {
     padding: 0;
   }
+
+  #profileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: relative;
+    top: 5px;
+  }
+
+  #email {
+    font-weight: bold;
+  }

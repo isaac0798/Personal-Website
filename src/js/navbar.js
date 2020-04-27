@@ -3,10 +3,10 @@ import "../css/navbar.css";
 import igLogo from "../images/igLogo.png";
 import githubLogo from "../images/githubLogo.png";
 import linkedinLogo from "../images/linkedinLogo.png";
+import profilePic from "../images/profilePic.png"
 import HomePage from "./home/homePage.js";
 import About from "./about/about.js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Contact from "./contact/contact";
 
 export default function NavBar() {
   return (
@@ -19,8 +19,11 @@ export default function NavBar() {
           <li>
             <Link to="/about">About</Link>
           </li>
-          <li>
-            <Link to="/contact">Contact</Link>
+          <li><a id="email">isaac0798@gmail.com</a></li>
+          <li id="logo">
+            <a id="logoLink">
+              <img id='profileImg' src={profilePic}></img>
+            </a>
           </li>
           <li id="logo">
             <a
@@ -57,9 +60,6 @@ export default function NavBar() {
           </Route>
           <Route path="/about">
             <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
           </Route>
         </Switch>
       </div>
