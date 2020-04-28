@@ -6,7 +6,8 @@ import linkedinLogo from "../images/linkedinLogo.png";
 import profilePic from "../images/profilePic.png"
 import HomePage from "./home/homePage.js";
 import About from "./about/about.js";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Projects from "./projects/projects.js"
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -18,6 +19,9 @@ export default function NavBar() {
           </li>
           <li>
             <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
           </li>
           <li><a id="email">isaac0798@gmail.com</a></li>
           <li id="logo">
@@ -61,6 +65,10 @@ export default function NavBar() {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>
