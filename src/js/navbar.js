@@ -4,6 +4,8 @@ import igLogo from "../images/igLogo.png";
 import githubLogo from "../images/githubLogo.png";
 import linkedinLogo from "../images/linkedinLogo.png";
 import profilePic from "../images/profilePic.png"
+import pdfLogo from "../images/pdfLogo.png"
+import resume from "../files/Resume.pdf"
 import HomePage from "./home/homePage.js";
 import About from "./about/about.js";
 import Projects from "./projects/projects.js"
@@ -54,6 +56,15 @@ export default function NavBar() {
               target="_blank"
             >
               <img src={linkedinLogo}></img>
+            </a>
+          </li>
+          <li id="logo">
+            <a
+              href={resume}
+              id="logoLink"
+              target="_blank"
+            >
+              <img src={pdfLogo}></img>
             </a>
           </li>
         </ul>
