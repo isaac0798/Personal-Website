@@ -2,7 +2,6 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://isaac0798.github.io/portfolio",
   "dependencies": {
     "@isaac.scarrott/react-type-it": "^1.0.17",
     "@testing-library/jest-dom": "^4.2.4",
