@@ -37,8 +37,9 @@ export default function Projects() {
             <p>{project.description}</p> 
             <p>{project.language}</p> 
             <p>
-              <a href={project.svn_url}></a>
-              {project.svn_url}
+              <a id="projectLink" href={project.svn_url}>
+                {project.svn_url}
+              </a>
             </p> 
           </div>
         </div>

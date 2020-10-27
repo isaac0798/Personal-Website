@@ -12,7 +12,7 @@ const futureDescription = `In the future, I want to specialise in backend web de
 
 export default function About() {
   return (
-    <div class="timeline">
+    <div className="timeline">
       <TimeFrame
         type="container right"
         year="My Future Goals"
@@ -37,8 +37,8 @@ export default function About() {
 
 function TimeFrame(props) {
   return (
-    <div class={props.type}>
-      <div class="content">
+    <div className={props.type}>
+      <div className="content">
         <h2>{props.year}</h2>
         <h3>{props.pow}</h3>
         <p>{props.content}</p>
