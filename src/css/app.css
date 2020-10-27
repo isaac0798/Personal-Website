@@ -1,3 +1,6 @@
+body {
+  background-color: darkgray;
+}
 .App {
   text-align: center;
 }
@@ -8,7 +11,6 @@
   flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
-  background-color: darkgray;
   align-items: center;
   justify-content: space-evenly;
 }

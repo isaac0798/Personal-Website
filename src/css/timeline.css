@@ -4,7 +4,6 @@
   
   /* Set a background color */
   body {
-    background-color: black;
     font-family: Helvetica, sans-serif;
   }
   
@@ -98,6 +97,9 @@
     background-color: white;
     position: relative;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
