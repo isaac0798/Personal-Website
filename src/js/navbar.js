@@ -8,6 +8,7 @@ import pdfLogo from "../images/pdfLogo.png"
 import resume from "../files/Resume.pdf"
 import HomePage from "./home/homePage.js";
 import About from "./about/about.js";
+import Footer from "./home/footer.js";
 import Projects from "./projects/projects.js"
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
@@ -72,6 +73,7 @@ export default function NavBar() {
         <Switch>
           <Route exact path="/">
             <HomePage />
+            <Footer />
           </Route>
           <Route path="/about">
             <About />

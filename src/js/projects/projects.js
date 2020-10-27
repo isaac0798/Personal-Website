@@ -31,7 +31,7 @@ export default function Projects() {
 
     const listProjects = projects.map((project) => {
       return (
-        <div className="projectCard">
+        <div className="projectCard" key={project.id}>
           <div className="projectContainer">
             <h4><b>{project.name}</b></h4> 
             <p>{project.description}</p> 
