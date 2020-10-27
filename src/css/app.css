@@ -5,11 +5,12 @@
 .mainPageContent {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
   background-color: darkgray;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 h3, h2 {
