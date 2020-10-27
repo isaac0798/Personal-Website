@@ -10,7 +10,7 @@ export default function HomePage() {
         <h2>I'm a software developer in Hull, and have been working here since graduating from the UoHull.</h2>
         <h3>I enjoy anything from bringing frontends to life, to building API's, to writing PLSQL scripts!</h3>
       </div>
-      <img id="homePageImg" src={homePage}></img>
+      <img id="homePageImg" alt="Me Chillin" src={homePage}></img>
     </div>
   );
 }
