@@ -3,6 +3,7 @@
     border-radius: 5px;
     background-color: white;
     margin: 5px;
+    color: black;
   }
   
   .card:hover {
@@ -11,6 +12,9 @@
   
   .projectContainer {
     padding: 2px 16px;
+    height: 30vh;
+    font-size: large;
+    font-family: karla;
   }
 
   #projectList {

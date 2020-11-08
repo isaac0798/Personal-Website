@@ -1,16 +1,21 @@
 import React from "react";
 import "../../css/homePage.css";
-import homePage from "../../images/homePage.png";
+import scroll from '../../images/scroll.png';
+import Projects from "../projects/projects";
 
 export default function HomePage() {
   return (
     <div className="mainPageContent">
-      <div id="txtBox">
-        <h1>Hi, my name is Isaac Tennant</h1>
-        <h2>I'm a software developer in Hull, and have been working here since graduating from the UoHull.</h2>
-        <h3>I enjoy anything from bringing frontends to life, to building API's, to writing PLSQL scripts!</h3>
+      <div id="slide1" className="txtBox">
+        <p>Hi, my name is Isaac Tennant</p>
+        <p>I'm a software developer in Hull, and have been working here since graduating from the UoHull.</p>
+        <p>I enjoy anything from bringing frontends to life, to building API's, to writing PLSQL scripts!</p>
+        <p>Projects Below</p>
+        <img id="scrollImg" src={scroll}></img>
       </div>
-      <img id="homePageImg" alt="Me Chillin" src={homePage}></img>
+      <div id="slide2" className="txtBox">
+        <Projects />
+      </div>
     </div>
   );
 }
