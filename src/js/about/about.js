@@ -16,7 +16,7 @@ export default function About() {
       <TimeFrame
         type="container right"
         year="My Future Goals"
-        pow="??"
+        pow="At a Computer somewhere"
         content={futureDescription}
       />
       <TimeFrame

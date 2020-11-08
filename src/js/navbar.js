@@ -23,9 +23,6 @@ export default function NavBar() {
           <li>
             <Link to="/about">About</Link>
           </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
           <li><a id="email">isaac0798@gmail.com</a></li>
           <li id="logo">
             <a id="logoLink">
@@ -73,7 +70,6 @@ export default function NavBar() {
         <Switch>
           <Route exact path="/">
             <HomePage />
-            <Footer />
           </Route>
           <Route path="/about">
             <About />
