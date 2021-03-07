@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
+    background: linear-gradient(55deg, #000000 60%, #191919 60%);
   }
   
   li {
@@ -12,14 +12,13 @@ ul {
   
   li a {
     display: block;
-    color: black;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: font-weigh 0.4s;
+    transition: 1s;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li a:hover {
     font-weight: bold;
   }

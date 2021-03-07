@@ -1,13 +1,14 @@
 .projectCard {
-    width: 40%;
+    width: 70%;
     border-radius: 5px;
-    background-color: white;
     margin: 5px;
-    color: black;
+    transition: 1s;
+    transition-timing-function: ease;
+    box-shadow: 0 8px 16px 0 black;
   }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  .projectCard:hover {
+    width: 80%;
   }
   
   .projectContainer {
@@ -15,12 +16,21 @@
     height: 30vh;
     font-size: large;
     font-family: karla;
+    color: black;
   }
 
   #projectList {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 31vh;
+      overflow: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+  }
+
+  #projectList::-webkit-scrollbar {
+    display: none;
   }
 
   #projectLink {

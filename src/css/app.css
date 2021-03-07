@@ -13,6 +13,8 @@ body {
   font-family: karla;
   align-items: center;
   justify-content: space-evenly;
+  scroll-behavior: smooth;
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 }
 
 .App-link {
