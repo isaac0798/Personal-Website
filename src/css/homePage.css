@@ -21,16 +21,24 @@
 }
 
 #slide1 {
+    padding-top: 5%;
     width: 100vw;
-    color: #fdcd3b;
+    color: black;
     animation: textColorChange 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
+    padding-bottom: 5%;
+    opacity: 1;
+}
+
+#slide1 p a {
+    color: white;
+    opacity: 0;
 }
 
 @keyframes textColorChange {
     100% {
-        color: black;
+        color: white;
     }
 }
 
