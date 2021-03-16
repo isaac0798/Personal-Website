@@ -33,7 +33,6 @@
 
 #slide1 p a {
     color: white;
-    opacity: 0;
 }
 
 @keyframes textColorChange {

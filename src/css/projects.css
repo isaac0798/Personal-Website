@@ -29,6 +29,30 @@
       scrollbar-width: none;
   }
 
+  @media only screen and (max-width: 425px) {
+    #projectList {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      overflow: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    .projectCard {
+      width: 70%;
+    }
+
+    .projectCard:hover {
+      width: 75%;
+    }
+
+    .projectContainer {
+      overflow-y: scroll;
+    }
+  }
+
   #projectList::-webkit-scrollbar {
     display: none;
   }
