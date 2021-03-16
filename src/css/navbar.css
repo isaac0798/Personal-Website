@@ -3,7 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background: linear-gradient(55deg, #000000 60%, #191919 60%);
+    background: #001233;
+    font-family: sans-serif
   }
   
   li {
@@ -12,7 +13,7 @@ ul {
   
   li a {
     display: block;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;

@@ -20,6 +20,17 @@ export default function HomePage() {
         </p>
       </div>
       <Projects />
+
+      <ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   );
 }

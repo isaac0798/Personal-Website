@@ -9,12 +9,133 @@ body {
   display: flex;
   flex-direction: column;
   font-size: calc(5px + 2vmin);
-  color: white;
-  font-family: karla;
+  color: black;
+  font-family: sans-serif;
   align-items: center;
   justify-content: space-evenly;
   scroll-behavior: smooth;
-  background: linear-gradient(110deg, #191919 60%, #000000 60%);
+  animation: pulse 10s infinite;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		background: #c0fdff;
+	}
+	25% {
+		background: #d8bbff;
+	}
+	50% {
+		background: #d0d1ff;
+	}
+	75% {
+		background: #c8e7ff;
+	}
+	100% {
+		background: #c0fdff;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		background: #c0fdff;
+	}
+	25% {
+		background: #d8bbff;
+	}
+	50% {
+		background: #d0d1ff;
+	}
+	75% {
+		background: #c8e7ff;
+	}
+	100% {
+		background: #c0fdff;
+	}
+}
+
+.bubbles li {
+	position: absolute;
+	list-style: none;
+	display: block;
+	background-color: #f3c4fb;
+  border-radius: 10px;
+	bottom: -100px;
+	animation: circle 15s infinite;
+	transition-timing-function: linear;
+  opacity: 0.5;
+}
+
+.bubbles li:nth-child(1) {
+	width: 40px;
+	height: 40px;
+	left: 20%;
+}
+
+.bubbles li:nth-child(2) {
+	width: 60px;
+	height: 60px;
+	left: 40%;
+	animation-delay: 2s;
+	animation-duration: 16s;
+}
+
+.bubbles li:nth-child(3) {
+	width: 30px;
+	height: 30px;
+	left: 60%;
+	animation-delay: 4s;
+	animation-duration: 13s;
+}
+
+.bubbles li:nth-child(4) {
+	width: 80px;
+	height: 80px;
+	left: 80%;
+	animation-delay: 1s;
+	animation-duration: 19s;
+}
+
+.bubbles li:nth-child(5) {
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	animation-delay: 5s;
+	animation-duration: 12s;
+}
+
+.bubbles li:nth-child(6) {
+	width: 25px;
+	height: 25px;
+	left: 10%;
+	animation-delay: 3s;
+	animation-duration: 11s;
+}
+
+.bubbles li:nth-child(7) {
+	width: 55px;
+	height: 55px;
+	left: 70%;
+	animation-delay: 2.5s;
+	animation-duration: 11s;
+}
+
+.bubbles li:nth-child(8) {
+	width: 75px;
+	height: 75px;
+	left: 30%;
+	animation-delay: 3.5s;
+	animation-duration: 11s;
+}
+
+@keyframes circle {
+	0% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+	100% {
+		-webkit-transform: translateY(-1080px) rotate(800deg);
+		transform: translateY(-1080px) rotate(800deg);
+	}
 }
 
 .App-link {

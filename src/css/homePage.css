@@ -32,12 +32,12 @@
 }
 
 #slide1 p a {
-    color: white;
+    color: black;
 }
 
 @keyframes textColorChange {
     100% {
-        color: white;
+        color: black;
     }
 }
 
