@@ -31,6 +31,17 @@ export default function About() {
         pow="University of Hull"
         content={uniOfHullDescription}
       />
+
+      <ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   );
 }

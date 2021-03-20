@@ -23,7 +23,7 @@
 #slide1 {
     padding-top: 5%;
     width: 100vw;
-    color: black;
+    color: white;
     animation: textColorChange 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
