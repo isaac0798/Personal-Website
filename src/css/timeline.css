@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color:white;
+    background-color:black;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -37,7 +37,7 @@
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid white;
+    border: 4px solid black;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -63,7 +63,7 @@
     align-items: center;
     flex-direction: column;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     color: black;
   }
   
@@ -95,42 +95,6 @@
   /* Make all right containers behave like the left ones */
     .right {
       left: 0%;
-    }
-  }
-
-  @-webkit-keyframes pulse {
-    0% {
-      background: #c0fdff;
-    }
-    25% {
-      background: #d8bbff;
-    }
-    50% {
-      background: #d0d1ff;
-    }
-    75% {
-      background: #c8e7ff;
-    }
-    100% {
-      background: #c0fdff;
-    }
-  }
-  
-  @keyframes pulse {
-    0% {
-      background: #c0fdff;
-    }
-    25% {
-      background: #d8bbff;
-    }
-    50% {
-      background: #d0d1ff;
-    }
-    75% {
-      background: #c8e7ff;
-    }
-    100% {
-      background: #c0fdff;
     }
   }
 

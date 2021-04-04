@@ -14,43 +14,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   scroll-behavior: smooth;
-  animation: pulse 10s infinite;
-}
-
-@-webkit-keyframes pulse {
-	0% {
-		background: #c0fdff;
-	}
-	25% {
-		background: #d8bbff;
-	}
-	50% {
-		background: #d0d1ff;
-	}
-	75% {
-		background: #c8e7ff;
-	}
-	100% {
-		background: #c0fdff;
-	}
-}
-
-@keyframes pulse {
-	0% {
-		background: #c0fdff;
-	}
-	25% {
-		background: #d8bbff;
-	}
-	50% {
-		background: #d0d1ff;
-	}
-	75% {
-		background: #c8e7ff;
-	}
-	100% {
-		background: #c0fdff;
-	}
+	background-color: whitesmoke;
 }
 
 .bubbles li {

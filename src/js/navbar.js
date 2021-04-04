@@ -18,17 +18,12 @@ export default function NavBar() {
       <div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link class="navLink underline" to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link class="navLink underline" to="/about">About</Link>
           </li>
-          <li><a id="email">isaac0798@gmail.com</a></li>
-          <li id="logo">
-            <a id="logoLink">
-              <img id='profileImg' src={profilePic}></img>
-            </a>
-          </li>
+          <li><a class="navLink underline" id="email">isaac0798@gmail.com</a></li>
           <li id="logo">
             <a
               href="https://www.instagram.com/rumpagnepapi/"

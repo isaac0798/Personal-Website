@@ -16,8 +16,6 @@ export default function HomePage() {
           and I want to keep progressing as a developer<br></br>
         </p>
 
-        <p>Below are some of my projects feel free to look or go to the about page for more details<br></br>
-        </p>
       </div>
       <Projects />
 

@@ -1,9 +1,10 @@
 ul {
+    display: flex;
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: #001233;
+    background: whitesmoke;
     font-family: sans-serif
   }
   
@@ -11,21 +12,14 @@ ul {
     float: left;
   }
   
-  li a {
+  .navLink {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 1s;
-  }
-  
-  li a:hover {
-    font-weight: bold;
-  }
-
-  #logo {
-    float: right;
+    transition: 2s;
+    font-weight: bolder;
   }
 
   #logoLink {
@@ -41,5 +35,5 @@ ul {
   }
 
   #email {
-    font-weight: bold;
+    font-weight: bolder;
   }
