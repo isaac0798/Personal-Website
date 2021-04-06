@@ -22,27 +22,50 @@
 
 #slide1 {
     padding-top: 5%;
-    width: 100vw;
+    width: 75vw;
     color: white;
     animation: textColorChange 3s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
     padding-bottom: 5%;
     opacity: 1;
+    line-height: 1.8;
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    position: relative;
+}
+
+#slide1 #avatar {
+    opacity: 0.15;
+    position: absolute;
+    left: 15%;
+    top: 25%
+}
+
+.title {
+    margin: 0;
+    height: 5vh;
+    color: black;
+}
+
+#slide2 {
+    width: 75vw; 
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    position: relative;
 }
 
 #slide1 p a {
-    color: black;
+    color: white;
+    animation: textColorChange 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 
 @keyframes textColorChange {
     100% {
         color: black;
     }
-}
-
-#slide2 {
-    height: max-content;
-    width: 100vw;
-    color: black;
 }

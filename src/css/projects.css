@@ -3,7 +3,6 @@
     margin: 5px;
     transition: 1s;
     transition-timing-function: ease;
-    box-shadow: 0 8px 10px 0 #f4acb7;
   }
 
   .projectCard:hover {
@@ -17,13 +16,11 @@
     font-family: sans-serif;
     color: white;
     border-radius: 10px;
-    background-color: #001233;
+    background-color: black;
   }
 
   #projectList {
       display: flex;
-      align-items: center;
-      justify-content: center;
       flex-wrap: wrap;
       overflow: scroll;
       -ms-overflow-style: none;
