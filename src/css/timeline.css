@@ -178,7 +178,7 @@
       transform: translateY(0);
     }
     100% {
-      -webkit-transform: translateY(-1080px) rotate(800deg);
-      transform: translateY(-1080px) rotate(800deg);
+      -webkit-transform: translateY(-150vh) rotate(800deg);
+      transform: translateY(-150vh) rotate(800deg);
     }
   }

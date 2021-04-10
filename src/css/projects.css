@@ -39,11 +39,12 @@
     }
 
     .projectCard {
-      width: 70%;
+      width: 90%;
+      margin-right: 15%;
     }
 
     .projectCard:hover {
-      width: 75%;
+      width: 100%;
     }
 
     .projectContainer {

@@ -38,7 +38,7 @@ export default function Projects() {
             <p>{project.language}</p> 
             <p>
               <a id="projectLink" href={project.svn_url}>
-                {project.svn_url}
+                link
               </a>
             </p> 
           </div>

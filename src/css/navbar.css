@@ -22,6 +22,16 @@ ul {
     font-weight: bolder;
   }
 
+  @media only screen and (max-width: 800px) {
+    ul {
+      justify-content: initial;
+    }
+
+    .navLink {
+      padding: 5px 8px;
+    }
+  }
+
   #logoLink {
     padding: 0;
   }

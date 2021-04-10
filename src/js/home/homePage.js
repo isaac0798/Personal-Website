@@ -43,17 +43,6 @@ export default function HomePage() {
         </svg>
         <Projects />
       </div>
-
-      <ul class="bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </div>
   );
 }
